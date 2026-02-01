@@ -1,5 +1,15 @@
 package ntnu.idatg2003;
 
+/**
+ * A command that replaces the first occurrence of a target substring with a replacement substring in the given text.
+ * Extends the ReplaceTextCommand class,
+ * which means it inherits the target and replacement properties and their getters.
+ * This is therefore a subclass of ReplaceTextCommand.
+ *
+ * @version 1.0
+ * @since 1.0
+ * @author Leon Wang
+ */
 public class ReplaceFirstTextCommand extends ReplaceTextCommand {
     /**
      * Constructs a ReplaceFirstTextCommand with the specified target and replacement substrings.
