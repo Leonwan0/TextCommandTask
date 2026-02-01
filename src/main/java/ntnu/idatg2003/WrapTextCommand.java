@@ -2,12 +2,13 @@ package ntnu.idatg2003;
 
 /**
  * A command that wraps the given text with specified opening and ending strings.
+ * Implements the TextCommand interface.
  *
  * @version 1.0
  * @since 1.0
  * @author Leon Wang
  */
-public class WrapTextCommand {
+public class WrapTextCommand implements TextCommand {
     private final String opening;
     private  final String end;
 
