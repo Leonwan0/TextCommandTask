@@ -28,6 +28,24 @@ public class ReplaceTextCommand implements TextCommand {
     }
 
     /**
+     * Gets the target substring.
+     *
+     * @return the target substring
+     */
+    public String getTarget() {
+        return target;
+    }
+
+    /**
+     * Gets the replacement substring.
+     *
+     * @return the replacement substring
+     */
+    public String getReplacement() {
+        return replacement;
+    }
+
+    /**
      * Replaces all occurrences of the target substring with the replacement substring in the given text.
      *
      * @param text the input text
