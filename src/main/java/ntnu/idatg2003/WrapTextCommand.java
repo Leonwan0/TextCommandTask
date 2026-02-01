@@ -42,4 +42,18 @@ public class WrapTextCommand {
         return end;
     }
 
+    /**
+     * Wraps the given text with the opening and ending strings.
+     *
+     * @param text the input text
+     * @return the wrapped text
+     * @throws IllegalArgumentException if the input text is null
+     */
+    public String execute(String text) {
+        if (text == null ) {
+            throw new IllegalArgumentException("Text cannot be null");
+        }
+        return opening + text + end;
+    }
+
 }
