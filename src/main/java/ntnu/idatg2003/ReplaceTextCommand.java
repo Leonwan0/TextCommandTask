@@ -9,8 +9,8 @@ package ntnu.idatg2003;
  * @author Leon Wang
  */
 public class ReplaceTextCommand implements TextCommand {
-    private final String target;
-    private final String replacement;
+    protected String target;
+    protected String replacement;
 
     /**
      * Constructs a ReplaceTextCommand with the specified target and replacement substrings.

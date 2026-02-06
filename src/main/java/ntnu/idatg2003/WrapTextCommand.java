@@ -9,8 +9,8 @@ package ntnu.idatg2003;
  * @author Leon Wang
  */
 public class WrapTextCommand implements TextCommand {
-    private final String opening;
-    private  final String end;
+    protected String opening;
+    protected String end;
 
     /**
      * Constructs a WrapTextCommand with the specified opening and ending strings.
