@@ -51,7 +51,7 @@ public class WrapTextCommand implements TextCommand {
      * @throws IllegalArgumentException if the input text is null
      */
     public String execute(String text) {
-        if (text == null ) {
+        if (text == null || opening == null || end == null) {
             throw new IllegalArgumentException("Text cannot be null");
         }
         return opening + text + end;
