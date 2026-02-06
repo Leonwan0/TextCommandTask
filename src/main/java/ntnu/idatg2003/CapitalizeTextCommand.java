@@ -24,7 +24,7 @@ public class CapitalizeTextCommand implements TextCommand {
             throw new IllegalArgumentException("Input text cannot be null");
         }
         if (text.isEmpty()) {
-            return text; // Return empty string if input is emp// ty
+            return text; // Return empty string if input is empty
         }
         char firstChar = Character.toUpperCase(text.charAt(0)); // recommended by ChatGPT
         return firstChar + text.substring(1); // capitalize the first character and concatenate with the rest of the string
