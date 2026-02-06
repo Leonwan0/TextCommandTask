@@ -19,4 +19,28 @@ public class WrapLinesTextCommand extends WrapTextCommand {
         super(opening, end);
     }
 
+    /**
+     * Wraps each line of the given text with the opening and ending strings.
+     *
+     * @param text the input text
+     * @return the wrapped text with each line wrapped individually
+     * @throws IllegalArgumentException if the input text is null
+     */
+    public String execute(String text) {
+        if (text == null ) {
+            throw new IllegalArgumentException("Text cannot be null");
+        }
+        String[] lines = text.split("\n", -1);
+        StringBuilder wrappedText = new StringBuilder();
+
+        // Wrap each line individually
+        for (int i = 0; i < lines.length; i++) {
+            wrappedText.append(getOpening()).append(lines[i]).append(getEnd());
+            if (i < lines.length - 1) {
+                wrappedText.append("\n");
+            }
+        }
+        return wrappedText.toString(); // Return the final wrapped text
+    }
+
 }
