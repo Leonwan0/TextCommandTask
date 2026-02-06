@@ -7,7 +7,6 @@ package ntnu.idatg2003;
  *
  * @version 1.0
  * @since 1.0
- *
  * @author Leon Wang
  *
  */
