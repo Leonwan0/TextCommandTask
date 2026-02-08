@@ -8,16 +8,20 @@ public class Main {
 
         TextCommand command2 = new ReplaceFirstTextCommand("target", "replacement");
 
-        WrapSelectionTextCommand wrapSelectionCommand = new WrapSelectionTextCommand("selected text",
-                "<b>", "</b>");
-        System.out.println(wrapSelectionCommand.execute("<b>", "</b>"));
+        WrapSelectionTextCommand wrapSelectionCommand = new WrapSelectionTextCommand("selection", "<b>", "</b>");
+        System.out.println(wrapSelectionCommand.execute("This is a sample text with a selection to be wrapped."));
 
-        WrapLinesTextCommand wrapLinesTextCommand = new WrapLinesTextCommand("<b>", "</b>");
-        System.out.println(wrapLinesTextCommand.execute("Line 1\nLine 2\nLine 3"));
+        WrapLinesTextCommand wrapLinesCommand = new WrapLinesTextCommand("<p>", "</p>");
+        System.out.println(wrapLinesCommand.execute("first line\nsecond line"));
+
+
 
         System.out.println(command1.execute("This is the target text with multiple target occurrences of the target word."));
 
         System.out.println(command2.execute("This is the target text with multiple target occurrences of the target word."));
+
+        CapitalizeTextCommand capitalizeTextCommand = new CapitalizeTextCommand();
+        System.out.println(capitalizeTextCommand.execute("this is a sample text."));
     }
 
 }
