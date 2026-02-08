@@ -33,13 +33,12 @@ public class WrapSelectionTextCommand extends WrapTextCommand {
     }
 
     /**
-     * Wraps the selected text with the specified opening and ending strings.
-     * @param opening the opening string to wrap around the selection
-     * @param end the ending string to wrap around the selection
-     * @return the wrapped selection with the opening and ending strings
-      * @throws IllegalArgumentException if opening or end is null
+     * Executes a command that wraps a selected portion of the given text.
+     *
+     * @param text the input text to be processed (not used in this implementation)
+     * @return the result of wrapping the selected text with the specified opening and ending strings
      */
-    public String execute(String opening, String end) {
-        return opening + selection + end;
+    public String execute(String text) {
+        return super.execute(selection); // Wrap the selected text using the parent class's execute method
     }
 }
