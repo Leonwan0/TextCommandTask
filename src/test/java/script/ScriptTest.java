@@ -5,10 +5,7 @@ import commands.capitalize.CapitalizeWordsTextCommand;
 import commands.replace.ReplaceTextCommand;
 import commands.script.Script;
 import commands.wrap.WrapLinesTextCommand;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import java.util.List;
-
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
