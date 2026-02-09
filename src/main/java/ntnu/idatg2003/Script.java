@@ -1,6 +1,5 @@
 package ntnu.idatg2003;
 
-
 import java.util.List;
 
 /**
@@ -15,7 +14,7 @@ import java.util.List;
  * @author Leon Wang
  */
 public class Script {
-    private final List<TextCommand> textCommands;
+    private final List<TextCommand> textCommands; // A list to hold the TextCommand objects that make up the script
 
     /**
      * Creates a script with the given list of TextCommand objects.
@@ -25,7 +24,7 @@ public class Script {
         if (textCommands == null) {
             throw new IllegalArgumentException("Text commands list cannot be null");
         }
-        this.textCommands = textCommands;
+        this.textCommands = textCommands; // Initialize the textCommands field with the provided list of TextCommand objects
     }
 
     /**
