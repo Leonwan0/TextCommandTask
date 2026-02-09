@@ -28,9 +28,6 @@ public class CapitalizeTextCommand implements TextCommand {
         }
         char firstChar = Character.toUpperCase(text.charAt(0)); // recommended by ChatGPT
         return firstChar + text.substring(1); // capitalize the first character and concatenate with the rest of the string
-
-
-
     }
 
 
