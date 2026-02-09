@@ -5,11 +5,10 @@ import commands.TextCommand;
 import java.util.List;
 
 /**
- * The Script class represents a collection of commands.capitalize.TextCommand objects that can be executed in sequence.
- * It provides a way to store and manage multiple text commands,
- * allowing for the execution of a series of text transformations or manipulations on a given input text.
- * Create multiple commands that we can then run in a series,
- * so that the result from one command becomes the input to the next.
+ * The Script class represents a sequence of TextCommand objects
+ * that can be executed in order to transform an input text.
+ * Each TextCommand in the script is executed sequentially,
+ * with the output of one command serving as the input for the next command.
  *
  * @version 1.1
  * @since 1.0
