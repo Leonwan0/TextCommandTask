@@ -1,5 +1,3 @@
-package ntnu.idatg2003;
-
 /**
  * An interface representing a text command that can be executed on a given text.
  * The execute method takes a String input and returns a modified String output.

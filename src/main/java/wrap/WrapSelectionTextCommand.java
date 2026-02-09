@@ -1,4 +1,4 @@
-package ntnu.idatg2003;
+package wrap;
 
 /**
  * A command that wraps the selected text with specified opening and ending strings.

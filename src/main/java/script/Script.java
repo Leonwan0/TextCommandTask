@@ -1,4 +1,6 @@
-package ntnu.idatg2003;
+package script;
+
+import TextCommand;
 
 import java.util.List;
 

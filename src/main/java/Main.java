@@ -1,5 +1,11 @@
-package ntnu.idatg2003;
-
+import capitalize.CapitalizeSelectionTextCommand;
+import capitalize.CapitalizeTextCommand;
+import capitalize.CapitalizeWordsTextCommand;
+import replace.ReplaceFirstTextCommand;
+import replace.ReplaceTextCommand;
+import script.Script;
+import wrap.WrapLinesTextCommand;
+import wrap.WrapSelectionTextCommand;
 
 import java.util.List;
 

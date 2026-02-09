@@ -1,4 +1,6 @@
-package ntnu.idatg2003;
+package replace;
+
+import TextCommand;
 
 /**
  * A command that replaces all occurrences of a target substring with a replacement substring in the given text.

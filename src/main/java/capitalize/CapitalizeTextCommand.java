@@ -1,4 +1,6 @@
-package ntnu.idatg2003;
+package capitalize;
+
+import TextCommand;
 
 /**
  * A command that capitalizes the first initial of the first word in the input text.

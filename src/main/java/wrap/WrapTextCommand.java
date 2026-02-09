@@ -1,4 +1,6 @@
-package ntnu.idatg2003;
+package wrap;
+
+import TextCommand;
 
 /**
  * A command that wraps the given text with specified opening and ending strings.
