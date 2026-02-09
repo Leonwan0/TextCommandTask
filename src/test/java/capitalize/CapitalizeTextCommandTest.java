@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
  * @since 1.0
  * @author Leon Wang
  */
-public class CapitalizeTextCommandTest {
+ class CapitalizeTextCommandTest {
     private final CapitalizeTextCommand command = new CapitalizeTextCommand();
 
     /**
