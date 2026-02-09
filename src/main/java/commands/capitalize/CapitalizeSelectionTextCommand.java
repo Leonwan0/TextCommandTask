@@ -1,4 +1,4 @@
-package capitalize;
+package commands.capitalize;
 
 /**
  * A command that capitalizes the first initial of the first word in the selected text.

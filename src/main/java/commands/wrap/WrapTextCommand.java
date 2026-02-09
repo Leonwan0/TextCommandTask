@@ -1,10 +1,10 @@
-package wrap;
+package commands.wrap;
 
-import TextCommand;
+import commands.TextCommand;
 
 /**
  * A command that wraps the given text with specified opening and ending strings.
- * Implements the TextCommand interface.
+ * Implements the commands.capitalize.TextCommand interface.
  *
  * @version 1.0
  * @since 1.0

@@ -1,4 +1,4 @@
-package wrap;
+package commands.wrap;
 
 /**
  * A command that wraps the selected text with specified opening and ending strings.

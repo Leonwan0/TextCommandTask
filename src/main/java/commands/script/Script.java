@@ -1,11 +1,11 @@
-package script;
+package commands.script;
 
-import TextCommand;
+import commands.TextCommand;
 
 import java.util.List;
 
 /**
- * The Script class represents a collection of TextCommand objects that can be executed in sequence.
+ * The Script class represents a collection of commands.capitalize.TextCommand objects that can be executed in sequence.
  * It provides a way to store and manage multiple text commands,
  * allowing for the execution of a series of text transformations or manipulations on a given input text.
  * Create multiple commands that we can then run in a series,
@@ -16,17 +16,17 @@ import java.util.List;
  * @author Leon Wang
  */
 public class Script {
-    private final List<TextCommand> textCommands; // A list to hold the TextCommand objects that make up the script
+    private final List<TextCommand> textCommands; // A list to hold the commands.capitalize.TextCommand objects that make up the script
 
     /**
-     * Creates a script with the given list of TextCommand objects.
-     * @param textCommands the list of TextCommand objects to be included in the script. Must not be null.
+     * Creates a script with the given list of commands.capitalize.TextCommand objects.
+     * @param textCommands the list of commands.capitalize.TextCommand objects to be included in the script. Must not be null.
      */
     public Script(List<TextCommand> textCommands) {
         if (textCommands == null) {
             throw new IllegalArgumentException("Text commands list cannot be null");
         }
-        this.textCommands = textCommands; // Initialize the textCommands field with the provided list of TextCommand objects
+        this.textCommands = textCommands; // Initialize the textCommands field with the provided list of commands.capitalize.TextCommand objects
     }
 
     /**

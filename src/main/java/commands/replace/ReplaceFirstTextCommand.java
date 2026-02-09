@@ -1,4 +1,4 @@
-package replace;
+package commands.replace;
 
 /**
  * A command that replaces the first occurrence of a target substring with a replacement substring in the given text.

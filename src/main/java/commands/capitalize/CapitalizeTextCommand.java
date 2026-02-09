@@ -1,10 +1,10 @@
-package capitalize;
+package commands.capitalize;
 
-import TextCommand;
+import commands.TextCommand;
 
 /**
  * A command that capitalizes the first initial of the first word in the input text.
- * This class implements the TextCommand interface and provides an implementation
+ * This class implements the commands.capitalize.TextCommand interface and provides an implementation
  * of the execute method to convert the first character of the first word in the input text to uppercase,
  * while leaving the rest of the text unchanged.
  *

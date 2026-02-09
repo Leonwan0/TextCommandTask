@@ -1,10 +1,10 @@
-package replace;
+package commands.replace;
 
-import TextCommand;
+import commands.TextCommand;
 
 /**
  * A command that replaces all occurrences of a target substring with a replacement substring in the given text.
- * Implements the TextCommand interface.
+ * Implements the commands.capitalize.TextCommand interface.
  *
  * @version 1.0
  * @since 1.0

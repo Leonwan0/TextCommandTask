@@ -1,11 +1,13 @@
-import capitalize.CapitalizeSelectionTextCommand;
-import capitalize.CapitalizeTextCommand;
-import capitalize.CapitalizeWordsTextCommand;
-import replace.ReplaceFirstTextCommand;
-import replace.ReplaceTextCommand;
-import script.Script;
-import wrap.WrapLinesTextCommand;
-import wrap.WrapSelectionTextCommand;
+package commands;
+
+import commands.capitalize.CapitalizeSelectionTextCommand;
+import commands.capitalize.CapitalizeTextCommand;
+import commands.capitalize.CapitalizeWordsTextCommand;
+import commands.replace.ReplaceFirstTextCommand;
+import commands.replace.ReplaceTextCommand;
+import commands.script.Script;
+import commands.wrap.WrapLinesTextCommand;
+import commands.wrap.WrapSelectionTextCommand;
 
 import java.util.List;
 
