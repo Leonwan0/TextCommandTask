@@ -1,6 +1,6 @@
 package ntnu.idatg2003;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 /**
@@ -9,9 +9,13 @@ import java.util.List;
  * allowing for the execution of a series of text transformations or manipulations on a given input text.
  * Create multiple commands that we can then run in a series,
  * so that the result from one command becomes the input to the next.
+ *
+ * @version 1.1
+ * @since 1.0
+ * @author Leon Wang
  */
 public class Script {
-    private final List<TextCommand> textCommands = new ArrayList<>();
+    private final List<TextCommand> textCommands;
 
     /**
      * Creates a script with the given list of TextCommand objects.
@@ -21,7 +25,7 @@ public class Script {
         if (textCommands == null) {
             throw new IllegalArgumentException("Text commands list cannot be null");
         }
-        this.textCommands.addAll(textCommands);
+        this.textCommands = textCommands;
     }
 
     /**
